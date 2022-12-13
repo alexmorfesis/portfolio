@@ -1,0 +1,134 @@
+/*
+  Project: My Develper Website
+  Author: Alexander Morfesis
+
+  This file contains the styles for My Website, including
+  the layout, colors, and typography. 
+
+  I tried to copy the style of the website from BLANK Coffee. I'm not   a great designer so I tried to keep it minimal. 
+  https://www.blankstreet.com/
+*/
+
+body {
+	background-color: rgb(199, 221, 204);
+  margin: 0;
+}
+
+header {
+	height: 160px;
+	background-color: black;
+}
+
+footer {
+	height: 90px;
+	background-color: black;
+  padding: 15px;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;
+}
+
+img {
+ width: 100%;	
+}
+
+.break {
+    height: 50px;
+    width: auto;
+}
+
+/* ------- HEADER ------- */
+
+header h1 {
+	font-family: 'Ariel', sans-serif;
+	color: white;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+  text-transform: uppercase;
+}
+
+header h2 {
+	font-family: 'Arial', sans-serif;
+	color: white;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+header nav {
+  font-family: 'Arial', sans-serif;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 15px;
+	text-align: center;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: rgb(199, 221, 204);
+}
+
+/* ------- MAIN ------- */
+
+h2 {
+	color: black;
+	font-family: 'Ariel', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px
+}
+
+
+p, li {
+	font-family: 'Ariel', sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+  line-height: 26px;
+}
+
+
+
+/* ------- LINKS ------- */
+
+a {
+	font-weight: 700;
+  color: black;
+  text-decoration: none
+}
+
+a:link { 
+  color: white; 
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* ------- FOOTER ------- */
+
+footer p {
+	color: white;	
+	text-align: center;
+}
+
+/* ------- Elements ------- */
+
+
+iframe { border: 1px solid black;}
+
+hr { border: .5px solid black;}
